@@ -1,0 +1,165 @@
+.grid-container {
+    display: grid;
+    gap: 5px;
+    grid-column-gap: 20px;
+    grid-template-areas:
+    "a a d d g g j j"
+    "b c e f h i k l"
+    "m m p p s s v v"
+    "n o q r t u xa xb"
+    
+}
+
+.grid-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.grid-container > div {
+    border: 1px dashed black;
+}
+
+/* PRODUCT 1 */
+.grid-product-a {
+    grid-area: a;
+}
+
+.grid-title-b {
+    grid-area: b;
+}
+
+.grid-price-c {
+    grid-area: c;
+}
+
+/* PRODUCT 2 */
+.grid-product-d {
+    grid-area: d;
+}
+
+.grid-title-e {
+    grid-area: e;
+}
+
+.grid-price-f {
+    grid-area: f;
+}
+
+/* PRODUCT 3 */
+.grid-product-g {
+    grid-area: g;
+}
+
+.grid-title-h {
+    grid-area: h;
+}
+
+.grid-price-i {
+    grid-area: i;
+}
+
+/* PRODUCT 4 */
+.grid-product-j {
+    grid-area: j;
+}
+
+.grid-title-k {
+    grid-area: k;
+}
+
+.grid-price-l {
+    grid-area: l;
+}
+
+/* PRODUCT 5 - NEW ROW */
+.grid-product-m {
+    grid-area: m;
+}
+
+.grid-title-n {
+    grid-area: n;
+}
+
+.grid-price-o {
+    grid-area: o;
+}
+
+/* PRODUCT 6 - NEW ROW */
+.grid-product-p {
+    grid-area: p;
+}
+
+.grid-title-q {
+    grid-area: q;
+}
+
+.grid-price-r {
+    grid-area: r;
+}
+
+/* PRODUCT 7 - NEW ROW */
+.grid-product-s {
+    grid-area: s;
+}
+
+.grid-title-t {
+    grid-area: t;
+}
+
+.grid-price-u {
+    grid-area: u;
+}
+
+/* PRODUCT 8 - NEW ROW */
+.grid-product-v {
+    grid-area: v;
+}
+
+.grid-title-xa {
+    grid-area: xa;
+}
+
+.grid-price-xb {
+    grid-area: xb;
+}
+
+/* STYLING */
+.grid-price-c, 
+.grid-price-f, 
+.grid-price-i, 
+.grid-price-l, 
+.grid-price-o, 
+.grid-price-r, 
+.grid-price-u, 
+.grid-price-y {
+    text-align: right;
+}
+
+/* @media screen and (max-width: 575px) {
+    .grid-container {
+        display: grid;
+        width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5px;
+        grid-column-gap: 5px;
+        grid-template-areas:
+        "a a"
+        "b c"
+        "d d"
+        "e f"
+        "g g"
+        "h i"
+        "j j"
+        "k l"
+        "m m"
+        "n o"
+        "p p"
+        "q r"
+        "s s"
+        "t u"
+        "v v"
+        "xa xb"
+    }
+} */

@@ -1,0 +1,167 @@
+@media screen and (max-width: 575px) {
+  body {
+    background-color: lightpink;
+  }
+
+  .site-container {
+    margin: 0 20px;
+  }
+
+  /*TOP-HEADER*/
+  .flex-header {
+    background-color: lightgrey;
+    display: block;
+    /*display: flex*/
+    /* flex-wrap: wrap; */
+    /* row-gap: 10px; */
+    margin: 0px 0px 8px 0px;
+    width: auto;
+    /* flex-direction: column; */
+  }
+
+  .flex-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .flex-header form {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .flex-header input {
+    width: 100%;
+  }
+
+  .flex-header li {
+    font-size: 14px;
+    display: block;
+  }
+
+  .flex-header ul {
+    margin: 16px 0px 16px 0px;
+    padding: 0;
+  }
+
+  /* HERO CONTAINER */
+  .flex-main-hero {
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  /* .flex-main-hero > * {
+    border: 1px solid black;
+  } */
+
+  .flex-main-hero h1 {
+    order: 2;
+    margin: 16px 16px 16px 16px;
+    width: auto;
+  }
+  .flex-main-hero p {
+    order: 2;
+    margin: 0px 16px 16px 16px;
+    width: auto;
+  }
+  .flex-main-hero button {
+    align-self: center;
+    order: 3;
+    margin: 0;
+    /* width: 100px;
+      height: 35px; */
+  }
+
+  .flex-main-hero img {
+    order: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* FLEXBOX SPOTS */
+  .flex-main-section {
+    display: none;
+  }
+
+  /*GRID - POPULAR PRODUCTS*/
+  .grid-container {
+    display: grid;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    grid-column-gap: 5px;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d d"
+    "e f"
+    "g g"
+    "h i"
+    "j j"
+    "k l"
+    "m m"
+    "n o"
+    "p p"
+    "q r"
+    "s s"
+    "t u"
+    "v v"
+    "xa xb"
+}
+
+  /*FOOTER*/
+  .footer-site-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 50%; */
+    text-align: left;
+    padding: 0;
+    border: 1px solid black;
+  }
+
+  .footer-site-info > ul > li {
+    margin: 5px;
+    color: red;
+    font-weight: bold;
+    flex: 50%;
+  }
+
+  .fas {
+    flex: 25%;
+  }
+
+  /* FOOTER LISTOR */
+  .list-container {
+    display: block;
+  }
+
+  .list-container li {
+    list-style-type: none;
+    margin: 0px 0px 16px 0px;
+  }
+
+  .list-container div > ul {
+    padding: 0;
+  }
+
+  .list-container a:first-child {
+    font-weight: bold;
+  }
+
+  .list-container a:not(:first-child) {
+    font-size: 13px;
+  }
+
+  footer p {
+    font-size: 12px;
+    text-align: center;
+    margin: 16px 0px 16px 0px;
+  }
+}
