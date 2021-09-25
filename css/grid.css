@@ -3,10 +3,10 @@
     gap: 5px;
     grid-column-gap: 20px;
     grid-template-areas:
-    "a a d d g g j j"
-    "b c e f h i k l"
-    "m m p p s s v v"
-    "n o q r t u xa xb"
+    "a1 a1 b1 b1 c1 c1 d1 d1"
+    "a2 a3 b2 b3 c2 c3 d2 d3"
+    "e1 e1 f1 f1 g1 g1 h1 h1"
+    "e2 e3 f2 f3 g2 g3 h2 h3"
     
 }
 
@@ -21,119 +21,124 @@
 }
 
 /* PRODUCT 1 */
-.grid-product-a {
-    grid-area: a;
+.product-a1 {
+    grid-area: a1;
 }
 
-.grid-title-b {
-    grid-area: b;
+.title-a2 {
+    grid-area: a2;
 }
 
-.grid-price-c {
-    grid-area: c;
+.price-a3 {
+    grid-area: a3;
 }
 
 /* PRODUCT 2 */
-.grid-product-d {
-    grid-area: d;
+.product-b1 {
+    grid-area: b1;
 }
 
-.grid-title-e {
-    grid-area: e;
+.title-b2 {
+    grid-area: b2;
 }
 
-.grid-price-f {
-    grid-area: f;
+.price-b3 {
+    grid-area: b3;
 }
 
 /* PRODUCT 3 */
-.grid-product-g {
-    grid-area: g;
+.product-c1 {
+    grid-area: c1;
 }
 
-.grid-title-h {
-    grid-area: h;
+.title-c2 {
+    grid-area: c2;
 }
 
-.grid-price-i {
-    grid-area: i;
+.price-c3 {
+    grid-area: c3;
 }
 
 /* PRODUCT 4 */
-.grid-product-j {
-    grid-area: j;
+.product-d1 {
+    grid-area: d1;
 }
 
-.grid-title-k {
-    grid-area: k;
+.title-d2 {
+    grid-area: d2;
 }
 
-.grid-price-l {
-    grid-area: l;
+.price-d3 {
+    grid-area: d3;
 }
 
-/* PRODUCT 5 - NEW ROW */
-.grid-product-m {
-    grid-area: m;
+/* PRODUCT 5 - SECOND ROW */
+.product-e1 {
+    grid-area: e1;
 }
 
-.grid-title-n {
-    grid-area: n;
+.title-e2 {
+    grid-area: e2;
 }
 
-.grid-price-o {
-    grid-area: o;
+.price-e3 {
+    grid-area: e3;
 }
 
-/* PRODUCT 6 - NEW ROW */
-.grid-product-p {
-    grid-area: p;
+/* PRODUCT 6 - SECOND ROW */
+.product-f1 {
+    grid-area: f1;
 }
 
-.grid-title-q {
-    grid-area: q;
+.title-f2 {
+    grid-area: f2;
 }
 
-.grid-price-r {
-    grid-area: r;
+.price-f3 {
+    grid-area: f3;
 }
 
-/* PRODUCT 7 - NEW ROW */
-.grid-product-s {
-    grid-area: s;
+/* PRODUCT 7 - SECOND ROW */
+.product-g1 {
+    grid-area: g1;
 }
 
-.grid-title-t {
-    grid-area: t;
+.title-g2 {
+    grid-area: g2;
 }
 
-.grid-price-u {
-    grid-area: u;
+.price-g3 {
+    grid-area: g3;
 }
 
-/* PRODUCT 8 - NEW ROW */
-.grid-product-v {
-    grid-area: v;
+/* PRODUCT 8 - SECOND ROW */
+.product-h1 {
+    grid-area: h1;
 }
 
-.grid-title-xa {
-    grid-area: xa;
+.title-h2 {
+    grid-area: h2;
 }
 
-.grid-price-xb {
-    grid-area: xb;
+.price-h3 {
+    grid-area: h3;
 }
 
 /* STYLING */
-.grid-price-c, 
-.grid-price-f, 
-.grid-price-i, 
-.grid-price-l, 
-.grid-price-o, 
-.grid-price-r, 
-.grid-price-u, 
-.grid-price-y {
+.price-a3, 
+.price-b3, 
+.price-c3, 
+.price-d3, 
+.price-e3, 
+.price-f3, 
+.price-g3, 
+.price-h3 {
     text-align: right;
+}
+
+.grid-container div:not(.product-a1, .product-b1, .product-c1, .product-d1, .product-e1, .product-f1, .product-g1, .product-h1) {
+    color: blue;
+    font-size: 1.15em;
 }
 
 /* @media screen and (max-width: 575px) {

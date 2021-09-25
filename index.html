@@ -7,7 +7,7 @@
     <title>Freaky Fashion</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/mediaquery.css" />
     <script
       src="https://kit.fontawesome.com/8d1abd618e.js"
       crossorigin="anonymous"
@@ -16,151 +16,166 @@
 
   <body>
     <div class="site-container">
-    <header class="flex-header">
-      <img src="https://placekitten.com/230/100" alt="logotyp" />
-      <form>
-        <input type="search" placeholder="Search" />
-      </form>
-      <nav>
-        <ul>
-          <li><a href="#">Nyheter</a></li>
-          <li><a href="#">Kategorier</a></li>
-          <li><a href="#">Topplistan</a></li>
-          <li><a href="#">Rea</a></li>
-          <li><a href="#">Kampanjer</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header class="flex-header">
+        <img src="https://placekitten.com/230/100" alt="logotyp" />
+        <form>
+          <input type="search" placeholder="Search" />
+        </form>
+        <nav>
+          <ul>
+            <li><a href="#">Nyheter</a></li>
+            <li><a href="#">Kategorier</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="#">Rea</a></li>
+            <li><a href="#">Kampanjer</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main>
-      <article class="flex-main-hero">
-        <h1>Lorem ipsum dolor</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-          tempore dolores cumque, aliquid laudantium nisi. Excepturi eos commodi
-          voluptate.
-        </p>
-        <button>Lorem</button>
-        <img src="https://placekitten.com/600/300" alt="Hero" />
+      <main>
+        <article class="flex-main-hero">
+          <h1>Lorem ipsum dolor</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur tempore dolores cumque, aliquid laudantium nisi.
+            Excepturi eos commodi voluptate.
+          </p>
+          <button>Lorem</button>
+          <img src="https://placekitten.com/600/300" alt="Hero" />
+        </article>
+
+        <!--Flexbox här -->
+        <section class="flex-main-section">
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 1" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 2" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 3" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+        </section>
+      </main>
+
+      <article>
+        <h2>Populära produkter</h2>
+        <!--Grid här -->
+        <div class="grid-container">
+          <div class="product-a1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-a2">Titel</div>
+          <div class="price-a3">249kr</div>
+
+          <div class="product-b1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-b2">Titel</div>
+          <div class="price-b3">249kr</div>
+
+          <div class="product-c1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-c2">Titel</div>
+          <div class="price-c3">249kr</div>
+
+          <div class="product-d1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-d2">Titel</div>
+          <div class="price-d3">249kr</div>
+
+          <div class="product-e1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-e2">Titel</div>
+          <div class="price-e3">249kr</div>
+
+          <div class="product-f1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-f2">Titel</div>
+          <div class="price-f3">249kr</div>
+
+          <div class="product-g1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-g2">Titel</div>
+          <div class="price-g3">249kr</div>
+
+          <div class="product-h1">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" />
+          </div>
+          <div class="title-h2">Titel</div>
+          <div class="price-h3">249kr</div>
+        </div>
       </article>
-
-      <!--Flexbox här -->
-      <section class="flex-main-section">
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 1" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 2" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 3" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-      </section>
-    </main>
-
-    <article>
-      <h2>Populära produkter</h2>
-      <!--Grid här -->
-      <div class="grid-container">
-        <div class="grid-product-a"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-b">Titel</div>
-        <div class="grid-price-c">249kr</div>
-
-        <div class="grid-product-d"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-e">Titel</div>
-        <div class="grid-price-f">249kr</div>
-
-        <div class="grid-product-g"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-h">Titel</div>
-        <div class="grid-price-i">249kr</div>
-
-        <div class="grid-product-j"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-k">Titel</div>
-        <div class="grid-price-l">249kr</div>
-
-        <div class="grid-product-m"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-n">Titel</div>
-        <div class="grid-price-o">249kr</div>
-
-        <div class="grid-product-p"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-q">Titel</div>
-        <div class="grid-price-r">249kr</div>
-
-        <div class="grid-product-s"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-t">Titel</div>
-        <div class="grid-price-u">249kr</div>
-
-        <div class="grid-product-v"><img src="https://placekitten.com/g/210/280" alt="produkt"></div>
-        <div class="grid-title-x">Titel</div>
-        <div class="grid-price-y">249kr</div>
-      </div>
-    </article>
-    <footer>
-      <nav class="footer-site-info">
-        <ul>
-          <i class="fas fa-globe-americas"></i>
-          <li>Gratis frakt och returer</li>
-          <i class="fas fa-plane"></i>
-          <li>Expressfrakt</li>
-          <i class="fas fa-shield-alt"></i>
-          <li>Säkra betalningar</li>
-          <i class="fas fa-newspaper"></i>
-          <li>Nyheter varje dag</li>
-        </ul>
-      </nav>
-
-      <!--Länklista här -->
-      <nav class="list-container">
-        <div>
+      <footer>
+        <nav class="footer-site-info">
           <ul>
-            <a href="#">
-              <li>Shopping</li>
-            </a>
-            <a href="#">
-              <li>Vinterjackor</li>
-            </a>
-            <a href="#">
-              <li>Pufferjackor</li>
-            </a>
-            <a href="#">
-              <li>Kappa</li>
-            </a>
-            <a href="#">
-              <li>Trenchcoats</li>
-            </a>
+            <li>
+              <i class="fas fa-globe-americas fa-fw"></i> Gratis frakt och
+              returer
+            </li>
+            <li><i class="fas fa-plane fa-fw"></i> Expressfrakt</li>
+            <li><i class="fas fa-shield-alt fa-fw"></i> Säkra betalningar</li>
+            <li><i class="fas fa-newspaper fa-fw"></i> Nyheter varje dag</li>
           </ul>
-        </div>
-        <div>
-          <ul>
-            <a href="#">
-              <li>Mina Sidor</li>
-            </a>
-            <a href="#">
-              <li>Mina Ordrar</li>
-            </a>
-            <a href="#">
-              <li>Mitt Konto</li>
-            </a>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <a href="#">
-              <li>Kundtjänst</li>
-            </a>
-            <a href="#">
-              <li>Returnpolicy</li>
-            </a>
-            <a href="#">
-              <li>Integritetspolicy</li>
-            </a>
-          </ul>
-        </div>
-      </nav>
-      <!-- <nav class="footer-grid-links">
+        </nav>
+
+        <!--Länklista här -->
+        <nav class="list-container">
+          <div>
+            <ul>
+              <a href="#">
+                <li>Shopping</li>
+              </a>
+              <a href="#">
+                <li>Vinterjackor</li>
+              </a>
+              <a href="#">
+                <li>Pufferjackor</li>
+              </a>
+              <a href="#">
+                <li>Kappa</li>
+              </a>
+              <a href="#">
+                <li>Trenchcoats</li>
+              </a>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <a href="#">
+                <li>Mina Sidor</li>
+              </a>
+              <a href="#">
+                <li>Mina Ordrar</li>
+              </a>
+              <a href="#">
+                <li>Mitt Konto</li>
+              </a>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <a href="#">
+                <li>Kundtjänst</li>
+              </a>
+              <a href="#">
+                <li>Returnpolicy</li>
+              </a>
+              <a href="#">
+                <li>Integritetspolicy</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+        <!-- <nav class="footer-grid-links">
         <div>Shopping</div>
         <div>Vinterjackor</div>
         <div>Pufferjackor</div>
@@ -173,8 +188,8 @@
         <div>Integritetspolicy</div>
       </nav> -->
 
-      <p>Copyright &copy; 2019 Freaky Fashion</p>
-    </footer>
-  </div>
+        <p>Copyright &copy; 2019 Freaky Fashion</p>
+      </footer>
+    </div>
   </body>
 </html>

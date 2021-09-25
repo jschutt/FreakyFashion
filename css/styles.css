@@ -12,10 +12,6 @@ a:link {
   text-decoration: none;
 }
 
-.fas {
-  font-size: 30px;
-}
-
 /* TOP-HEADER CONTAINER */
 .flex-header {
   background-color: lightgrey;
@@ -28,6 +24,11 @@ a:link {
 
 .flex-header form {
   align-self: center;
+}
+
+.flex-header input {
+  border-radius: 8px;
+  border: 1px solid grey;
 }
 
 .flex-header li {
@@ -48,34 +49,39 @@ a:link {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 320px;
-  height: 320px;
+  width: auto;
+  height: 350px;
+  gap: 15px;
+  margin-bottom: 18px;
+  align-items: center;
 }
-
 
 .flex-main-hero > * {
   border: 1px dashed black;
-  flex-grow: 1;
   margin: 0;
 }
 
 .flex-main-hero h1 {
-  order: 1;
-
+  margin-top: 16px;
+  margin-left: 16px;
+  width: 30%;
 }
 .flex-main-hero p {
-  order: 2;
+  margin-left: 16px;
+  width: 30%;
 }
 .flex-main-hero button {
-  order: 3;
-  /* width: 100px;
-  height: 35px; */
+  margin-left: 16px;
+  width: 100px;
+  height: 35px;
 }
 
 .flex-main-hero img {
-  order: 4;
+  margin-top: 16px;
+  margin-right: 16px;
   display: block;
-  opacity: 0.5;
+  width: 65%;
+  height: auto;
   /* width: 75%;
   height: auto; */
   /* width: 600px;
@@ -103,7 +109,7 @@ a:link {
 
   border: 1px solid black;
   margin: 16px;
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 .flex-main-section h3 {
   margin: 16px 0px 0px 56px;
@@ -125,8 +131,13 @@ article > h2 {
 .footer-site-info > ul > li {
   display: inline;
   font-weight: bold;
+  font-size: 16px;
   margin: 20px;
+}
 
+/* Icons */
+.fas {
+  font-size: 24px;
 }
 
 /* FOOTER LISTOR */
